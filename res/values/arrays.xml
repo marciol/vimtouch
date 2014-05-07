@@ -73,6 +73,8 @@
         <item>Amber text on black</item>
         <item>Red text on black</item>
         <item>Holo blue on black</item>
+        <item>Solarized Light</item>
+        <item>Solarized Dark</item>
     </string-array>
 
     <!-- Do not localize entryvalues -->
@@ -84,6 +86,8 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
+        <item>8</item>
     </string-array>
 
     <string-array name="entries_backaction_preference">

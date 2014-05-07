@@ -144,7 +144,7 @@ public class VimTermSession extends TermSession {
         mSuRoot = settings.getSuRoot();
         if(mSuRoot){
             try {
-                Process p = Runtime.getRuntime().exec("su -c ls");
+                Process p = Runtime.getRuntime().exec("su");
                 p.waitFor();
             } catch (Exception e) {
                 mSuRoot = false;
